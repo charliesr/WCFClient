@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ReferenciaWeb\Reference.cs">
+    <Compile Include="Connected Services\WebReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -58,8 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Operation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -69,11 +73,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\ReferenciaWeb\service.wsdl" />
-    <None Include="Connected Services\ReferenciaWeb\service.xsd">
+    <None Include="Connected Services\WebReference\bindings.wsdl" />
+    <None Include="Connected Services\WebReference\service.wsdl" />
+    <None Include="Connected Services\WebReference\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ReferenciaWeb\service1.xsd">
+    <None Include="Connected Services\WebReference\service1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
@@ -93,16 +98,16 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ReferenciaWeb\" />
+    <WCFMetadataStorage Include="Connected Services\WebReference\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ReferenciaWeb\configuration91.svcinfo" />
+    <None Include="Connected Services\WebReference\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ReferenciaWeb\configuration.svcinfo" />
+    <None Include="Connected Services\WebReference\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ReferenciaWeb\Reference.svcmap">
+    <None Include="Connected Services\WebReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

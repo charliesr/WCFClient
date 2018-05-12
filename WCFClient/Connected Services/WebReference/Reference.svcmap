@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cc2cb4c6-5403-4c1d-91fc-e743e608092c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="231049f1-4566-4c94-81de-87ae63006f5f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,9 +22,10 @@
     <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/WcfCalculadora/Service1/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="dfb8291e-f8b4-4b62-bf89-b7f01e458e41" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfCalculadora/Service1/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="b26ee0e6-2b9b-48ba-866b-9bc20c283f9e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfCalculadora/Service1/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="2bec2447-f949-4d8f-b157-d9cefc6302c8" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfCalculadora/Service1/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="e2605222-f497-477d-b891-a02edc8e2573" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfCalculadora/Service1/mex" />
+    <MetadataFile FileName="bindings.wsdl" MetadataType="Wsdl" ID="6b683b92-4f74-4632-8674-9779ec7e4cb9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfCalculadora/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="ffcfa1f7-24ce-4be8-bdc4-1a9f8b0b6758" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfCalculadora/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="bbd2dc92-c8ea-4fc7-a9a9-c36fddce6dcb" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfCalculadora/Service1/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

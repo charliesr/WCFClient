@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WCFClient.ReferenciaWeb {
+namespace WCFClient.WebReference {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ReferenciaWeb.IService1")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="WebReference.IService1")]
     public interface IService1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Suma", ReplyAction="http://tempuri.org/IService1/SumaResponse")]
@@ -41,12 +41,12 @@ namespace WCFClient.ReferenciaWeb {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IService1Channel : WCFClient.ReferenciaWeb.IService1, System.ServiceModel.IClientChannel {
+    public interface IService1Channel : WCFClient.WebReference.IService1, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service1Client : System.ServiceModel.ClientBase<WCFClient.ReferenciaWeb.IService1>, WCFClient.ReferenciaWeb.IService1 {
+    public partial class Service1Client : System.ServiceModel.ClientBase<WCFClient.WebReference.IService1>, WCFClient.WebReference.IService1 {
         
         public Service1Client() {
         }
